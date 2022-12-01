@@ -5,4 +5,4 @@ tasks:
 jetbrains:
   intellij:
     prebuilds:
-      version: both
+      version: latest
