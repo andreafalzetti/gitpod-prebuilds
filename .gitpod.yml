@@ -5,11 +5,25 @@ tasks:
 jetbrains:
   intellij:
     prebuilds:
-      version: stable
+      version: both
+  pycharm:
+    prebuilds:
+      version: both
   phpstorm:
     prebuilds:
-      version: latest
+      version: both
+  pycharm:
+    prebuilds:
+      version: both
   goland:
     prebuilds:
       version: both
-
+  webstorm:
+    prebuilds:
+      version: both            
+  rubymine:
+    prebuilds:
+      version: both            
+  rider:
+    prebuilds:
+      version: both
