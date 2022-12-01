@@ -6,7 +6,7 @@ jetbrains:
   intellij:
     prebuilds:
       version: stable
-  rider:
+  phpstorm:
     prebuilds:
       version: latest
   goland:
