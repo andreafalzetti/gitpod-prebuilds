@@ -3,6 +3,6 @@ tasks:
     command: echo 'start script'
 
 jetbrains:
-  rider:
+  intellij:
     prebuilds:
       version: both
