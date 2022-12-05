@@ -12,9 +12,6 @@ jetbrains:
   phpstorm:
     prebuilds:
       version: both
-  pycharm:
-    prebuilds:
-      version: both
   goland:
     prebuilds:
       version: both
