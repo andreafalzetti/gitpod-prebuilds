@@ -1,6 +1,6 @@
 tasks:
   - init: echo 'init script' # runs during prebuild
-    command: echo 'start script 8'
+    command: echo 'start script 9'
 
 jetbrains:
   intellij:
