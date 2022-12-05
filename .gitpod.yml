@@ -1,6 +1,9 @@
 tasks:
   - init: echo 'init script' # runs during prebuild
-    command: echo 'start script 10'
+    command: |
+      echo 'start script 10'
+      sleep 5
+      cat /tmp/backend/bin/idea.properties
 
 jetbrains:
   intellij:
