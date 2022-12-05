@@ -1,7 +1,7 @@
 tasks:
-  - init: echo 'init script' # runs during prebuild
-    command: |
-      echo 'start script 12'
+  - command: echo 'command script' # runs during prebuild
+    init: |
+      echo 'start init 13'
       sleep 5
       cat /tmp/backend/bin/idea.properties
 
