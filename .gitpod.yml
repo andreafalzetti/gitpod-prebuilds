@@ -2,8 +2,9 @@ tasks:
   - command: echo 'command script' # runs during prebuild
     init: |
       echo 'start init 13'
-      sleep 5
       cat /tmp/backend/bin/idea.properties
+      cat /workspace/.gitpod/prebuild-log-0
+      cat /workspace/.gitpod/prebuild-log-1
 
 jetbrains:
   intellij:
