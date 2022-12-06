@@ -2,6 +2,7 @@ tasks:
   - command: echo 'command script 1' # runs during prebuild
     init: |
       echo 'start init 14'
+      sleep 3
       cat /tmp/backend-latest/bin/idea.properties
 
 jetbrains:
