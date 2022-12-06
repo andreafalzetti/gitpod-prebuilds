@@ -1,10 +1,8 @@
 tasks:
-  - command: echo 'command script' # runs during prebuild
+  - command: echo 'command script 1' # runs during prebuild
     init: |
-      echo 'start init 13'
-      cat /tmp/backend/bin/idea.properties
-      cat /workspace/.gitpod/prebuild-log-0
-      cat /workspace/.gitpod/prebuild-log-1
+      echo 'start init 14'
+      cat /tmp/backend-latest/bin/idea.properties
 
 jetbrains:
   intellij:
