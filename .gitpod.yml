@@ -1,5 +1,5 @@
 tasks:
-  - command: echo 'command script 2' # runs during prebuild
+  - command: echo 'command script 3' # runs during prebuild
     init: |
       echo 'start init 14'
       sleep 40
