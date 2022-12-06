@@ -4,6 +4,7 @@ tasks:
       echo 'start init 14'
       sleep 40
       cat /tmp/backend-latest/bin/idea.properties
+      echo 'end init'
 
 jetbrains:
   intellij:
