@@ -1,5 +1,5 @@
 tasks:
-  - init: echo 'init script'
+  - init: echo 'init script 2'
     command: echo 'start script'
 
 jetbrains:
