@@ -1,6 +1,12 @@
 tasks:
-  - init: echo 'init script' # runs during prebuild
+  - init: date
     command: echo 'start script'
+    
+  - init: sleep 10 && date
+    command: echo 'delayed task 10'
+    
+  - init: sleep 20 && date
+    command: echo 'delayed task 20'
 
 jetbrains:
   intellij:
